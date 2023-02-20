@@ -1,5 +1,7 @@
 # GPU ray tracing engine
 
+Ray tracing engine using the [WGPU API](https://wgpu.rs/).
+
 ## 🚀 Running
 
 ```shell
@@ -8,5 +10,5 @@ cd gpu-raytracing-engine
 cargo run --example basic --target
 ```
 
-current examples:
-    - [basic]
+## Current examples:
+- [basic](https://github.com/muriel-guedes/gpu-raytracing-engine/blob/master/examples/basic.rs)
