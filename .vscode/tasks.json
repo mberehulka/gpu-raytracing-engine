@@ -3,6 +3,17 @@
     "tasks": [
         {
             "label": "A",
+            "command": "cargo run --example basic",
+            "type": "shell",
+            "presentation": {
+                "clear": true,
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "group": "build"
+        },
+        {
+            "label": "B",
             "command": "cargo run --example basic --release",
             "type": "shell",
             "presentation": {
